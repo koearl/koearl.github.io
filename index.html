@@ -25,6 +25,22 @@
     <meta property="article:published_time" content="2023-11-23T16:21:00.489Z">
     <meta property="article:modified_time" content="2023-11-23T16:21:00.489Z">
     <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap">
+    <meta name="generator" content="Hexo 4.2.1">
+    <link rel="alternate" href="/atom.xml" title="Koearl 的笔记" type="application/atom+xml">
+    <script>
+        let _hmt = _hmt || [];
+        (function() {
+            let hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?97a18fdb48cfc2397d9dd237126cbe8f";
+            let s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     <script>
         let activateDarkMode = function () {
             document.documentElement.setAttribute('data-theme', 'dark')
@@ -81,20 +97,6 @@
             if (t === 'dark') activateDarkMode()
             else if (t === 'light') activateLightMode()
         }
-    </script>
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap">
-    <script>
-        let _hmt = _hmt || [];
-        (function() {
-            let hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?97a18fdb48cfc2397d9dd237126cbe8f";
-            let s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
     </script>
     <script>
         let GLOBAL_CONFIG = {
@@ -163,8 +165,6 @@
             }
         </style>
     </noscript>
-    <meta name="generator" content="Hexo 4.2.1">
-    <link rel="alternate" href="/atom.xml" title="Koearl 的笔记" type="application/atom+xml">
 </head>
 <body>
 <div id="loading-box">
@@ -360,34 +360,50 @@
     <main class="layout_page" id="content-inner">
         <div class="recent-posts" id="recent-posts">
             <div class="recent-post-item">
-                <div class="post_cover left_radius"><a href="/2020/07/29/Interview/" title="For Interview"> <img
-                        class="post_bg" data-src="https://i.loli.net/2021/05/28/nqF2DvMljTyrQk3.jpg"
-                        onerror="this.onerror=null;this.src='/img/404.jpg'" alt="For Interview"></a></div>
-                <div class="recent-post-info"><a class="article-title" href="/2020/07/29/Interview/"
-                                                 title="For Interview">For Interview</a>
-                    <div class="article-meta-wrap"><span class="article-meta"><i
-                            class="fas fa-thumbtack article-meta__icon sticky"></i><span class="sticky">置顶</span><span
-                            class="article-meta__separator">|</span></span>
-                        <time class="post-meta__date"><span class="post-meta__date-created"
-                                                            title="发表于 2020-07-29 00:00:00"><i
-                                class="far fa-calendar-alt"></i>2020-07-29</span><span
-                                class="article-meta__separator">|</span><span class="post-meta__date-updated"
-                                                                              title="更新于 2022-09-05 22:34:51"><i
-                                class="fas fa-history"></i>2022-09-05</span></time>
-                        <span class="article-meta"><span class="article-meta__separator">|</span><i
-                                class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories"
-                                                                               href="/categories/Interview/">Interview</a></span><span
-                                class="article-meta tags"><span class="article-meta__separator">|</span><i
-                                class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags"
-                                                                             href="/tags/Interview/">Interview</a><span
-                                class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Spring/">Spring</a><span
-                                class="article-meta__link">•</span><a class="article-meta__tags"
-                                                                      href="/tags/JUC/">JUC</a><span
-                                class="article-meta__link">•</span><a class="article-meta__tags"
-                                                                      href="/tags/JVM/">JVM</a><span
-                                class="article-meta__link">•</span><a class="article-meta__tags"
-                                                                      href="/tags/Structure/">Structure</a><span
-                                class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Cache/">Cache</a></span>
+                <div class="post_cover left_radius">
+                    <a href="/2020/07/29/Interview/" title="For Interview">
+                        <img class="post_bg"
+                             data-src="https://i.loli.net/2021/05/28/nqF2DvMljTyrQk3.jpg"
+                             onerror="this.onerror=null;this.src='/img/404.jpg'" alt="For Interview">
+                    </a>
+                </div>
+                <div class="recent-post-info">
+                    <a class="article-title" href="/2020/07/29/Interview/" title="For Interview">For Interview</a>
+                    <div class="article-meta-wrap">
+                        <span class="article-meta">
+                            <i class="fas fa-thumbtack article-meta__icon sticky"></i>
+                            <span class="sticky">置顶</span>
+                            <span class="article-meta__separator">|</span>
+                        </span>
+                        <time class="post-meta__date">
+                            <span class="post-meta__date-created"  title="发表于 2020-07-29 00:00:00">
+                                <i class="far fa-calendar-alt"></i>2020-07-29
+                            </span>
+                            <span class="article-meta__separator">|</span>
+                            <span class="post-meta__date-updated" title="更新于 2022-09-05 22:34:51">
+                                <i class="fas fa-history"></i>2022-09-05
+                            </span>
+                        </time>
+                        <span class="article-meta">
+                            <span class="article-meta__separator">|</span>
+                            <i class="fas fa-inbox article-meta__icon"></i>
+                            <a class="article-meta__categories"  href="/categories/Interview/">Interview</a>
+                        </span>
+                        <span class="article-meta tags">
+                            <span class="article-meta__separator">|</span>
+                            <i class="fas fa-tag article-meta__icon"></i>
+                            <a class="article-meta__tags" href="/tags/Interview/">Interview</a>
+                            <span class="article-meta__link">•</span>
+                            <a class="article-meta__tags" href="/tags/Spring/">Spring</a>
+                            <span class="article-meta__link">•</span>
+                            <a class="article-meta__tags" href="/tags/JUC/">JUC</a>
+                            <span class="article-meta__link">•</span>
+                            <a class="article-meta__tags" href="/tags/JVM/">JVM</a>
+                            <span class="article-meta__link">•</span>
+                            <a class="article-meta__tags" href="/tags/Structure/">Structure</a>
+                            <span class="article-meta__link">•</span>
+                            <a class="article-meta__tags" href="/tags/Cache/">Cache</a>
+                        </span>
                     </div>
                     <div class="content">前言仅供本人面试前准备，其他人还是别看了，没意义。有很多我缩写，省去了很多易理解的部分。
                         我尽量找别人已经总结过的东西，而不是自己写，无意义，面试的八股文罢了。都是靠努力就能实现的东西。
@@ -862,78 +878,79 @@
             </div>
             <div class="card-widget card-recent-post">
                 <div class="card-content">
-                    <div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div>
+                    <div class="item-headline">
+                        <i class="fas fa-history"></i><span>最新文章</span>
+                    </div>
                     <div class="aside-recent-item">
-                        <div class="aside-recent-post"><a href="/2023/07/06/get-a-job/">
-                            <div class="aside-post-cover"><img class="aside-post-bg"
-                                                               data-src="https://z1.ax1x.com/2023/11/24/piwmPCn.png"
-                                                               onerror="this.onerror=null;this.src='/img/404.jpg'"
-                                                               title="找一份工作" alt="找一份工作"/></div>
-                            <div class="aside-post-title">
-                                <div class="aside-post_title" href="/2023/07/06/get-a-job/" title="找一份工作">
-                                    找一份工作
+                        <div class="aside-recent-post">
+                            <a href="/2023/07/06/get-a-job/">
+                                <div class="aside-post-cover">
+                                    <img class="aside-post-bg"
+                                         data-src="https://z1.ax1x.com/2023/11/24/piwmPCn.png"
+                                         onerror="this.onerror=null;this.src='/img/404.jpg'"
+                                         title="找一份工作" alt="找一份工作"/>
                                 </div>
-                                <time class="aside-post_meta post-meta__date" title="发表于 2023-07-06 00:00:00">
-                                    2023-07-06
-                                </time>
-                            </div>
-                        </a></div>
-                        <div class="aside-recent-post"><a href="/2022/03/03/principles/">
-                            <div class="aside-post-cover"><img class="aside-post-bg"
-                                                               data-src="https://res.weread.qq.com/wrepub/epub_921568_53"
-                                                               onerror="this.onerror=null;this.src='/img/404.jpg'"
-                                                               title="原则" alt="原则"/></div>
-                            <div class="aside-post-title">
-                                <div class="aside-post_title" href="/2022/03/03/principles/" title="原则">原则</div>
-                                <time class="aside-post_meta post-meta__date" title="发表于 2022-03-03 00:00:00">
-                                    2022-03-03
-                                </time>
-                            </div>
-                        </a></div>
-                        <div class="aside-recent-post"><a href="/2021/06/15/film-mooc/">
-                            <div class="aside-post-cover"><img class="aside-post-bg"
-                                                               data-src="https://i.loli.net/2021/06/15/EiA7wd82moqXFO3.jpg"
-                                                               onerror="this.onerror=null;this.src='/img/404.jpg'"
-                                                               title="电影概论-Mooc" alt="电影概论-Mooc"/></div>
-                            <div class="aside-post-title">
-                                <div class="aside-post_title" href="/2021/06/15/film-mooc/" title="电影概论-Mooc">
-                                    电影概论-Mooc
+                                <div class="aside-post-title">
+                                    <div class="aside-post_title" title="找一份工作">
+                                        找一份工作
+                                    </div>
+                                    <time class="aside-post_meta post-meta__date" title="发表于 2023-07-06 00:00:00">
+                                        2023-07-06
+                                    </time>
                                 </div>
-                                <time class="aside-post_meta post-meta__date" title="发表于 2021-06-15 00:00:00">
-                                    2021-06-15
-                                </time>
-                            </div>
-                        </a></div>
-                        <div class="aside-recent-post"><a href="/2021/05/17/YoutubeComments/">
-                            <div class="aside-post-cover"><img class="aside-post-bg"
-                                                               data-src="https://i.loli.net/2021/05/28/A6hTfXYpK15nSCz.png"
-                                                               onerror="this.onerror=null;this.src='/img/404.jpg'"
-                                                               title="Youtube 看不了评论" alt="Youtube 看不了评论"/>
-                            </div>
-                            <div class="aside-post-title">
-                                <div class="aside-post_title" href="/2021/05/17/YoutubeComments/"
-                                     title="Youtube 看不了评论">Youtube 看不了评论
+                            </a>
+                        </div>
+                        <div class="aside-recent-post">
+                            <a href="/2022/03/03/principles/">
+                                <div class="aside-post-cover">
+                                    <img class="aside-post-bg"
+                                         data-src="https://res.weread.qq.com/wrepub/epub_921568_53"
+                                         onerror="this.onerror=null;this.src='/img/404.jpg'"
+                                         title="原则" alt="原则"/>
                                 </div>
-                                <time class="aside-post_meta post-meta__date" title="发表于 2021-05-17 00:00:00">
-                                    2021-05-17
-                                </time>
-                            </div>
-                        </a></div>
-                        <div class="aside-recent-post"><a href="/2020/12/18/TFT/">
-                            <div class="aside-post-cover"><img class="aside-post-bg"
-                                                               data-src="https://i.loli.net/2021/05/28/PJIBje234kwzV6r.jpg"
-                                                               onerror="this.onerror=null;this.src='/img/404.jpg'"
-                                                               title="云顶之弈如何从零到最强王者"
-                                                               alt="云顶之弈如何从零到最强王者"/></div>
-                            <div class="aside-post-title">
-                                <div class="aside-post_title" href="/2020/12/18/TFT/"
-                                     title="云顶之弈如何从零到最强王者">云顶之弈如何从零到最强王者
+                                <div class="aside-post-title">
+                                    <div class="aside-post_title" href="/2022/03/03/principles/" title="原则">原则</div>
+                                    <time class="aside-post_meta post-meta__date" title="发表于 2022-03-03 00:00:00">
+                                        2022-03-03
+                                    </time>
                                 </div>
-                                <time class="aside-post_meta post-meta__date" title="发表于 2020-12-18 00:00:00">
-                                    2020-12-18
-                                </time>
-                            </div>
-                        </a></div>
+                            </a>
+                        </div>
+                        <div class="aside-recent-post">
+                            <a href="/2021/06/15/film-mooc/">
+                                <div class="aside-post-cover">
+                                    <img class="aside-post-bg"
+                                         data-src="https://i.loli.net/2021/06/15/EiA7wd82moqXFO3.jpg"
+                                         onerror="this.onerror=null;this.src='/img/404.jpg'"
+                                         title="电影概论-Mooc" alt="电影概论-Mooc"/></div>
+                                <div class="aside-post-title">
+                                    <div class="aside-post_title" title="电影概论-Mooc">
+                                        电影概论-Mooc
+                                    </div>
+                                    <time class="aside-post_meta post-meta__date" title="发表于 2021-06-15 00:00:00">
+                                        2021-06-15
+                                    </time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="aside-recent-post">
+                            <a href="/2021/05/17/YoutubeComments/">
+                                <div class="aside-post-cover">
+                                    <img class="aside-post-bg"
+                                         data-src="https://i.loli.net/2021/05/28/A6hTfXYpK15nSCz.png"
+                                         onerror="this.onerror=null;this.src='/img/404.jpg'"
+                                         title="Youtube 看不了评论" alt="Youtube 看不了评论"/>
+                                </div>
+                                <div class="aside-post-title">
+                                    <div class="aside-post_title" title="Youtube 看不了评论">
+                                        Youtube 看不了评论
+                                    </div>
+                                    <time class="aside-post_meta post-meta__date" title="发表于 2021-05-17 00:00:00">
+                                        2021-05-17
+                                    </time>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1053,16 +1070,22 @@
     </main>
     <footer id="footer" data-type="color">
         <div id="footer-wrap">
-            <div class="copyright">&copy;2020 - 2023 By Koearl</div>
-            <div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank"
-                                                             rel="noopener"><span>Hexo</span></a><span
-                    class="footer-separator">|</span><span>主题 </span><a
-                    href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a>
+            <div class="copyright">&copy;2022 - 2023 By Koearl</div>
+            <div class="framework-info"><span>驱动 </span>
+                <a href="https://hexo.io" target="_blank" rel="noopener">
+                    <span>Hexo</span>
+                </a>
+                <span class="footer-separator">|</span>
+                <span>主题 </span>
+                <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener">
+                    <span>Butterfly</span>
+                </a>
             </div>
             <div class="footer_custom_text">善待家人 & 朋友 & 自己</div>
         </div>
     </footer>
 </div>
+
 <section class="rightside" id="rightside">
     <div id="rightside-config-hide">
         <button class="translate_chn_to_cht" id="translateLink" title="简繁转换">繁</button>
@@ -1073,6 +1096,7 @@
         <button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button>
     </div>
 </section>
+
 <div class="search-dialog" id="local-search">
     <div class="search-dialog__title" id="local-search-title">本地搜索</div>
     <div id="local-input-panel">
@@ -1091,8 +1115,10 @@
                 <span>提供支持</span></div>
         </div>
     </div>
-    <span class="search-close-button"><i class="fas fa-times"></i></span></div>
+    <span class="search-close-button"><i class="fas fa-times"></i></span>
+</div>
 <div class="search-mask"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
 <script src="/js/utils.js"></script>
 <script src="/js/main.js"></script>
